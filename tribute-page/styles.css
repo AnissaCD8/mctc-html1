@@ -51,6 +51,9 @@ color:rgb(27, 67, 161)}
          text-align: center;
          flex-direction: column;}
 
-     #tribute-link {color:rgb(27, 67, 161);}
+     #tribute-link{display:inline-block;
+                   color:rgb(27, 67, 161);
+                  width:110px; height:35px;
+                  background-color:rgb(201, 240, 230);}
 
 
