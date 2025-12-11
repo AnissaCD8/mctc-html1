@@ -7,7 +7,7 @@ main{background:#ccdaff;
     flex-direction:column;}
 
 body{font-family:Georgia, Times, Arial;
-     margin:1}
+     margin:0; padding:0;}
 
 p {font-size: 140%; text-align:center;}
 
@@ -22,15 +22,19 @@ img{display: block;}
 
 
 #image {max-width: 100%;
- max-height:auto;
+ height:auto;
 justify-content:center;
 margin:auto; border-radius:4px
 }
 
-#img-caption {font-size:110%;text-align:center;margin:15px 0 5px 0}
+#img-caption {font-size:14px;
+              font-weight: bold;
+              text-align:center;
+              margin:15px 0 5px 0}
 
 #title{text-align: center;
-margin-bottom:1;} 
+margin-bottom:1;
+color:rgb(27, 67, 161)} 
 
 #tribute-info{text-align:center;}
 
@@ -43,6 +47,11 @@ margin-bottom:1;}
 #kitana{color:#0f024f;}
 
 #img-div{padding:11px;
+         display: flex;
+         text-align: center;
+         flex-direction: column;
          
 }
+
+
 
