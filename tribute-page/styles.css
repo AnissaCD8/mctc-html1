@@ -49,9 +49,8 @@ color:rgb(27, 67, 161)}
 #img-div{padding:11px;
          display: flex;
          text-align: center;
-         flex-direction: column;
-         
-}
+         flex-direction: column;}
 
+     #tribute-link {color:rgb(27, 67, 161);}
 
 
